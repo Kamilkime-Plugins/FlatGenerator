@@ -1,0 +1,18 @@
+# Kolejne warstwy generowania dla danych map
+# Należy pamiętać, że generator musi być także podpięty pod dany świat w bukkit.yml
+#
+# Warstwy powinny być podawane od najniższych do najwyższych
+# Nie trzeba podawać warstw powietrza
+# Warstwy muszą być postaci "minY maxY blok", gdzie:
+#   minY — minimalna wartość y dla danej warstwy
+#   maxY — maksymalna wartość y dla danej warstwy
+#   blok — typ bloku, który będzie umieszczony w danej warstwie
+layers:
+  world:
+    - "-64 -60 bedrock"
+    - "-59 10 stone"
+    - "16 16 grass_block"
+    - "11 15 dirt"
+  world_nether:
+    - "0 0 bedrock"
+    - "1 20 lava"

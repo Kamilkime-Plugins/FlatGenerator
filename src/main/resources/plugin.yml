@@ -1,0 +1,7 @@
+name: "FlatGenerator"
+version: "${version}"
+main: "pl.kamilkime.flatgenerator.FlatGenerator"
+load: "STARTUP"
+api-version: "1.17"
+author: "Kamilkime"
+website: "https://kamilki.me/"
